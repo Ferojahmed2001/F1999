@@ -1,0 +1,818 @@
+
+.button-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 50px;
+    
+}
+
+.data-science-button{
+    color: rgb(227, 21, 10);
+    background-color: rgba(244, 231, 88, 0.97);
+    font-family: "Roboto Slab", serif;
+    height:35px;
+    width:140px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    border-width: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 7px 7px 10px rgba(79, 68, 67, 0.3);
+    transition: box-shadow 0.3s ,background-color 0.3s , color 0.3s
+}
+.data-science-button:hover{
+    padding-bottom: 3px;
+    text-decoration: underline;
+    box-shadow: 9px 9px 10px rgba(79, 68, 67, 0.7);
+    background-color: rgb(227, 21, 10);
+    color: rgba(244, 231, 88, 0.97);
+}
+.data-science-button:active{
+    box-shadow: 9px 9px 10px rgba(79, 68, 67, 0.7);
+    color: rgb(227, 21, 10);
+    background-color: rgba(244, 231, 88, 0.97);
+
+}
+
+.python-button{
+    color: rgb(227, 21, 10);
+    background-color: rgba(244, 231, 88, 0.97);
+    font-family: "Roboto Slab", serif;
+    height:35px;
+    width:100px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    border-width: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 7px 7px 10px rgba(79, 68, 67, 0.3);
+    transition: box-shadow 0.3s ,background-color 0.3s , color 0.3s
+}
+.python-button:hover{
+    padding-bottom: 3px;
+    text-decoration: underline;
+    box-shadow: 9px 9px 10px rgba(79, 68, 67, 0.7);
+    background-color: rgb(227, 21, 10);
+    color: rgba(244, 231, 88, 0.97);
+}
+.python-button:active{
+    box-shadow: 9px 9px 10px rgba(79, 68, 67, 0.7);
+    color: rgb(227, 21, 10);
+    background-color: rgba(244, 231, 88, 0.97);
+
+}
+
+.bioinformatics-button{
+    color: rgb(227, 21, 10);
+    background-color: rgba(244, 231, 88, 0.97);
+    font-family: "Roboto Slab", serif;
+    height:35px;
+    width:160px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    border-width: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 7px 7px 10px rgba(79, 68, 67, 0.3);
+    transition: box-shadow 0.3s ,background-color 0.3s , color 0.3s
+}
+.bioinformatics-button:hover{
+    padding-bottom: 3px;
+    text-decoration: underline;
+    box-shadow: 9px 9px 10px rgba(79, 68, 67, 0.7);
+    background-color: rgb(227, 21, 10);
+    color: rgba(244, 231, 88, 0.97);
+}
+.bioinformatics-button:active{
+    box-shadow: 9px 9px 10px rgba(79, 68, 67, 0.7);
+    color: rgb(227, 21, 10);
+    background-color: rgba(244, 231, 88, 0.97);
+
+}
+.container-grid1{
+    display:grid;
+    grid-template-columns: 1fr ;
+    justify-self: center;
+    justify-items: center;
+    row-gap: 50px;
+    height:auto;
+    width:70%;
+    margin:35px 0px 0px 0px; 
+
+}
+.grid-box1{
+    display: flex;
+    flex-direction: column;
+    height:350px;
+    width:60%;
+    border-color: rgb(46, 185, 255);
+    border-style:dashed;
+    border-width: 3px;
+    box-shadow: 0px 0px 20px rgba(46, 185, 255); 
+    animation:grid-slide;
+    animation-duration: 1.5s;
+}
+
+@keyframes grid-slide{
+from{transform: translatey(300px)}
+}
+
+.grid-image1{
+    height: 240px;
+    width: 100%;
+}
+
+.grid-write1{  
+    height: 80px;
+    width:100%;
+    font-size: .9rem;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif; 
+    text-align: justify;
+    align-content: center;
+    color:rgb(5, 5, 5);
+    background-color: rgba(46, 185, 255, 0.1);
+    
+
+}
+.written1{
+    margin: 2px 5px 2px 5px;
+}
+.Image1{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+.source1{
+    height: 30px;
+    background-color:  rgb(46, 185, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
+.link-blog{
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+.link-blog:hover{
+    color: rgb(254, 4, 4);
+    font-size: 700;
+    cursor: pointer;
+    text-decoration:underline;
+}
+.link-blog:active{
+    color: rgb(248, 22, 177);
+    font-size: 700;
+    text-decoration:underline;
+}
+
+
+@media(max-width:1025px){
+    
+    .container-grid1{
+        display:grid;
+        grid-template-columns: 1fr ;
+        justify-self: center;
+        justify-items: center;
+        row-gap: 50px;
+        height:auto;
+        width:70%;
+        margin:35px 0px 0px 0px; 
+    
+    }
+    .grid-box1{
+        display: flex;
+        flex-direction: column;
+        height:350px;
+        width:78%;
+     }
+    .grid-image1{
+        height: 250px;
+        width: 100%;
+    }
+    
+    .grid-write1{  
+        height: 75px;
+        width:100%;
+        font-size: .9rem;
+        font-weight: 600;
+    }
+    .written1{
+        margin: 2px 5px 2px 5px;
+    }
+    .source1{
+        height: 25px;
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+
+    .button-section{
+        column-gap: 50px;
+        
+    }
+    
+    .data-science-button{
+        height:35px;
+        width:120px;
+        font-weight: 600;
+        font-size: 1rem;
+    }
+    
+    
+    .python-button{
+        height:35px;
+        width:90px;
+        font-weight: 600;
+        font-size: 1rem;
+    }
+    
+    
+    .bioinformatics-button{
+        height:35px;
+        width:140px;
+        font-weight: 600;
+        font-size: 1rem;
+    }
+}
+
+
+
+@media(max-width:992px){
+    
+    .container-grid1{
+        display:grid;
+        grid-template-columns: 1fr ;
+        justify-self: center;
+        justify-items: center;
+        row-gap: 50px;
+        height:auto;
+        width:70%;
+        margin:35px 0px 0px 0px; 
+    
+    }
+    .grid-box1{
+        display: flex;
+        flex-direction: column;
+        height:350px;
+        width:80%;
+     }
+    .grid-image1{
+        height: 250px;
+        width: 100%;
+    }
+    
+    .grid-write1{  
+        height: 75px;
+        width:100%;
+        font-size: .9rem;
+        font-weight: 600;
+    }
+    .written1{
+        margin: 2px 5px 2px 5px;
+    }
+    .source1{
+        height: 25px;
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+
+    .button-section{
+        column-gap: 50px;
+        
+    }
+    
+    .data-science-button{
+        height:35px;
+        width:120px;
+        font-weight: 600;
+        font-size: 1rem;
+    }
+    
+    
+    .python-button{
+        height:35px;
+        width:90px;
+        font-weight: 600;
+        font-size: 1rem;
+    }
+    
+    
+    .bioinformatics-button{
+        height:35px;
+        width:140px;
+        font-weight: 600;
+        font-size: 1rem;
+    }
+}
+
+
+@media(max-width:769px){
+    
+    .container-grid1{
+        display:grid;
+        grid-template-columns: 1fr ;
+        justify-self: center;
+        justify-items: center;
+        row-gap: 40px;
+        height:auto;
+        width:70%;
+        margin:35px 0px 0px 0px; 
+    
+    }
+    .grid-box1{
+        display: flex;
+        flex-direction: column;
+        height:320px;
+        width:85%;
+     }
+    .grid-image1{
+        height: 220px;
+        width: 100%;
+    }
+    
+    .grid-write1{  
+        height: 80px;
+        width:100%;
+        font-size: .9rem;
+        font-weight: 600;
+    }
+    .written1{
+        margin: 2px 5px 2px 5px;
+    }
+    .source1{
+        height: 20px;
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+
+    .button-section{
+        column-gap: 50px;
+        
+    }
+    
+    .data-science-button{
+        height:35px;
+        width:120px;
+        font-weight: 600;
+        font-size: 1rem;
+    }
+    
+    
+    .python-button{
+        height:35px;
+        width:90px;
+        font-weight: 600;
+        font-size: 1rem;
+    }
+    
+    
+    .bioinformatics-button{
+        height:35px;
+        width:140px;
+        font-weight: 600;
+        font-size: 1rem;
+    }
+}
+
+
+@media(max-width:566px){
+    .container-grid1{
+        row-gap: 50px;
+        height:auto;
+        width:100%;
+        margin:35px 0px 0px 0px; 
+    
+    }
+    .grid-box1{
+        height:260px;
+        width:60%;
+    
+     }
+    .grid-image1{
+        height: 160px;
+        width: 100%;
+    }
+    
+    .grid-write1{  
+        height: 80px;
+        width:100%;
+        font-size: .6rem;
+        font-weight: 600;
+    }
+    .written1{
+        margin: 1px 2px 1px 2px;
+    }
+    .source1{
+        height: 20px;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    
+    .button-section{
+        column-gap: 15px;
+        
+    }
+    
+    .data-science-button{
+        height:35px;
+        width:100px;
+        font-weight: 600;
+        font-size: .8rem;
+    }
+       
+    .python-button{
+        height:35px;
+        width:90px;
+        font-weight: 600;
+        font-size: .9rem;
+    }
+    
+    
+    .bioinformatics-button{
+        height:35px;
+        width:120px;
+        font-weight: 600;
+        font-size: .8rem;
+    }
+}
+
+
+@media(max-width:431px){
+    .container-grid1{
+        row-gap: 50px;
+        height:auto;
+        width:100%;
+        margin:35px 0px 0px 0px;   
+    }
+    .grid-box1{
+        height:260px;
+        width:65%;
+    
+     }
+    .grid-image1{
+        height: 160px;
+        width: 100%;
+    }
+    
+    .grid-write1{  
+        height: 80px;
+        width:100%;
+        font-size: .6rem;
+        font-weight: 600;
+    }
+    .written1{
+        margin: 1px 2px 1px 2px;
+    }
+    .source1{
+        height: 20px;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    
+    .button-section{
+        column-gap: 15px;
+        
+    }
+    
+    .data-science-button{
+        height:35px;
+        width:90px;
+        font-weight: 600;
+        font-size: .7rem;
+    }
+       
+    .python-button{
+        height:35px;
+        width:80px;
+        font-weight: 600;
+        font-size: .8rem;
+    }
+    
+    
+    .bioinformatics-button{
+        height:35px;
+        width:100px;
+        font-weight: 600;
+        font-size: .7rem;
+    }
+}
+
+
+@media(max-width:426px){
+    .container-grid1{
+        row-gap: 50px;
+        height:auto;
+        width:100%;
+        margin:35px 0px 0px 0px;   
+    }
+    .grid-box1{
+        height:260px;
+        width:65%;
+    
+     }
+    .grid-image1{
+        height: 155px;
+        width: 100%;
+    }
+    
+    .grid-write1{  
+        height: 85px;
+        width:100%;
+        font-size: .6rem;
+        font-weight: 600;
+    }
+    .written1{
+        margin: 1px 2px 1px 2px;
+    }
+    .source1{
+        height: 20px;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    
+    
+    .button-section{
+        column-gap: 15px;
+        
+    }
+    
+    .data-science-button{
+        height:35px;
+        width:90px;
+        font-weight: 600;
+        font-size: .7rem;
+    }
+       
+    .python-button{
+        height:35px;
+        width:80px;
+        font-weight: 600;
+        font-size: .8rem;
+    }
+    
+    
+    .bioinformatics-button{
+        height:35px;
+        width:100px;
+        font-weight: 600;
+        font-size: .7rem;
+    }
+    
+}
+
+
+@media(max-width:413px){ 
+    .container-grid1{
+        row-gap: 50px;
+        height:auto;
+        width:100%;
+        margin:35px 0px 0px 0px;   
+    }
+    .grid-box1{
+        height:260px;
+        width:68%;
+    
+     }
+    .grid-image1{
+        height: 155px;
+        width: 100%;
+    }
+    
+    .grid-write1{  
+        height: 85px;
+        width:100%;
+        font-size: .6rem;
+        font-weight: 600;
+    }
+    .written1{
+        margin: 1px 2px 1px 2px;
+    }
+    .source1{
+        height: 20px;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    
+    .button-section{
+        column-gap: 15px;
+        
+    }
+    
+    .data-science-button{
+        height:35px;
+        width:90px;
+        font-weight: 600;
+        font-size: .7rem;
+    }
+       
+    .python-button{
+        height:35px;
+        width:80px;
+        font-weight: 600;
+        font-size: .8rem;
+    }
+    
+    
+    .bioinformatics-button{
+        height:35px;
+        width:100px;
+        font-weight: 600;
+        font-size: .7rem;
+    }
+}
+
+
+@media(max-width:391px){
+    .container-grid1{
+        row-gap: 50px;
+        height:auto;
+        width:100%;
+        margin:35px 0px 0px 0px;   
+    }
+    .grid-box1{
+        height:260px;
+        width:68%;
+    
+     }
+    .grid-image1{
+        height: 155px;
+        width: 100%;
+    }
+    
+    .grid-write1{  
+        height: 85px;
+        width:100%;
+        font-size: .6rem;
+        font-weight: 600;
+    }
+    .written1{
+        margin: 1px 2px 1px 2px;
+    }
+    .source1{
+        height: 20px;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+     
+    .button-section{
+        column-gap: 15px;
+        
+    }
+    
+    .data-science-button{
+        height:35px;
+        width:90px;
+        font-weight: 600;
+        font-size: .7rem;
+    }
+       
+    .python-button{
+        height:35px;
+        width:80px;
+        font-weight: 600;
+        font-size: .8rem;
+    }
+    
+    
+    .bioinformatics-button{
+        height:35px;
+        width:100px;
+        font-weight: 600;
+        font-size: .7rem;
+    }
+ 
+}
+
+
+@media(max-width:376px){
+    .container-grid1{
+        row-gap: 50px;
+        height:auto;
+        width:100%;
+        margin:35px 0px 0px 0px;   
+    }
+    .grid-box1{
+        height:260px;
+        width:70%;
+    
+     }
+    .grid-image1{
+        height: 155px;
+        width: 100%;
+    }
+    
+    .grid-write1{  
+        height: 85px;
+        width:100%;
+        font-size: .6rem;
+        font-weight: 600;
+    }
+    .written1{
+        margin: 1px 2px 1px 2px;
+    }
+    .source1{
+        height: 20px;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    .button-section{
+        column-gap: 15px;
+        
+    }
+    
+    .data-science-button{
+        height:35px;
+        width:90px;
+        font-weight: 600;
+        font-size: .7rem;
+    }
+       
+    .python-button{
+        height:35px;
+        width:80px;
+        font-weight: 600;
+        font-size: .8rem;
+    }
+    
+    
+    .bioinformatics-button{
+        height:35px;
+        width:100px;
+        font-weight: 600;
+        font-size: .7rem;
+    }
+
+}
+
+
+@media(max-width:321px){
+    .container-grid1{
+        row-gap: 50px;
+        height:auto;
+        width:100%;
+        margin:35px 0px 0px 0px;   
+    }
+    .grid-box1{
+        height:260px;
+        width:70%;
+    
+     }
+    .grid-image1{
+        height: 155px;
+        width: 100%;
+    }
+    
+    .grid-write1{  
+        height: 85px;
+        width:100%;
+        font-size: .5rem;
+        font-weight: 600;
+    }
+    .written1{
+        margin: 1px 2px 1px 2px;
+    }
+    .source1{
+        height: 20px;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    
+    .button-section{
+        column-gap: 15px;
+        
+    }
+    
+    .data-science-button{
+        height:35px;
+        width:90px;
+        font-weight: 600;
+        font-size: .7rem;
+    }
+       
+    .python-button{
+        height:35px;
+        width:80px;
+        font-weight: 600;
+        font-size: .8rem;
+    }
+    
+    
+    .bioinformatics-button{
+        height:35px;
+        width:100px;
+        font-weight: 600;
+        font-size: .7rem;
+    }
+    
+}
