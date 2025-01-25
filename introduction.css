@@ -289,7 +289,7 @@
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     text-decoration:underline;
-    margin:-60px 0px 0px 0px;
+    margin:-70px 0px 0px 0px;
 
 }
 
@@ -974,7 +974,7 @@
     .grid-write{  
         height: 70px;
         width:100%;
-        font-size: .6rem;
+        font-size: .55rem;
         font-weight: 600;
     }
     .written{
@@ -1341,7 +1341,7 @@
         width: 80px;
         height: 35px;
         font-weight: 800;
-        font-size: .3rem;
+        font-size: .5rem;
     }
     .hire-button{
         width: 60px;
